@@ -1,0 +1,162 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    background-color: #141414;
+    height: 110vh;
+    margin: 0px;
+    padding: 0px
+}
+
+nav {
+    background-color: #141414;
+    height: 70px;
+    border-bottom: 1px solid #312d2f;
+    display: flex;
+    align-items: center;
+}
+
+.item-catalogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fcd4e3;
+    border-right: 1px solid #312d2f;
+    width: 180px;
+    height: 100%;
+}
+
+#catalogo-text{
+    margin-left: 5px;
+    font-weight: 650;
+    text-decoration: none;
+    color: #fcd4e3;
+}
+
+/* Botões NavBar*/
+
+.buttons-catalogo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.sobre-btn{
+    appearance: none;
+    background-color: #141414;
+    color: white;
+    height: 100%;
+    width: 220px;
+    cursor: pointer;
+    font-size: 17px;
+    border: none;
+}
+
+.sobre-btn:hover{
+    background-color: #272727;
+}
+
+.logo {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#saldo-text{
+    margin-left: 7px;
+    font-weight: 650;
+    text-decoration: none;
+    color: #fcd4e3;
+}
+
+.item-saldo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fcd4e3;
+    border-left: 2px solid #312d2f;
+    width: 180px;
+    height: 100%;
+}
+
+.container-topo {
+    display: flex;
+}
+
+.main-text {    
+    width: 35%;
+    margin-left: 40px;
+    color: rgb(247, 242, 245);
+    line-height: 50px;
+    margin-top: 65px;
+}
+
+.foto {
+    width: 65%;
+}
+
+#foto-logo {
+    width: 260px;
+    border-radius: 180px;
+    margin-left: 550px;
+    margin-top: 35px;
+}
+
+#legenda {
+    color: white;
+    margin-left: 645px;
+    font-size: 14px;
+}
+
+.preco {
+    display: flex;
+    align-items: center;
+    border: #312d2f 1px solid;
+    width: 330px;
+    margin-left: 60px;
+    margin-top: 10px;
+    padding: 12px;
+}
+
+.preco-text {
+    font-size: 12px;
+    color: #5a5a5a;
+    font-weight: 50;
+    margin-left: 25px;
+}
+
+.custo-text {
+    color: rgb(247, 242, 245);
+    font-size: 13px;
+    margin-left: 180px;
+}
+
+.pisante {
+    width: 354px;
+    height: 354px;
+    background-color: rgb(247, 242, 245);
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+#jordan1 {
+    width: 354px;
+}
+
+.container-bot {
+    display: flex;
+}
+
+#produto-2 {
+    margin-left: 60px;
+}
+
+#produto-3 {
+    margin-left: 60px;
+}
+
+#jordan2 {
+    width: 354px;
+    margin-top: 62px;
+}
